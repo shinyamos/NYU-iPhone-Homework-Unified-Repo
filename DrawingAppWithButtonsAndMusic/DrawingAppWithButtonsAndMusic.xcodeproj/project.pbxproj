@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A696DD0D13D8B546007FDB8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A696DD0C13D8B546007FDB8B /* UIKit.framework */; };
+		A696DD0F13D8B546007FDB8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A696DD0E13D8B546007FDB8B /* Foundation.framework */; };
+		A696DD1113D8B546007FDB8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A696DD1013D8B546007FDB8B /* CoreGraphics.framework */; };
+		A696DD1713D8B546007FDB8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A696DD1513D8B546007FDB8B /* InfoPlist.strings */; };
+		A696DD1A13D8B546007FDB8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A696DD1913D8B546007FDB8B /* main.m */; };
+		A696DD1D13D8B546007FDB8B /* DrawingAppWithButtonsAndMusicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A696DD1C13D8B546007FDB8B /* DrawingAppWithButtonsAndMusicAppDelegate.m */; };
+		A696DD2013D8B546007FDB8B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696DD1E13D8B546007FDB8B /* MainWindow.xib */; };
+		A696DD2713D8B546007FDB8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A696DD0C13D8B546007FDB8B /* UIKit.framework */; };
+		A696DD2813D8B546007FDB8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A696DD0E13D8B546007FDB8B /* Foundation.framework */; };
+		A696DD2913D8B546007FDB8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A696DD1013D8B546007FDB8B /* CoreGraphics.framework */; };
+		A696DD3113D8B546007FDB8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A696DD2F13D8B546007FDB8B /* InfoPlist.strings */; };
+		A696DD3413D8B547007FDB8B /* DrawingAppWithButtonsAndMusicTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A696DD3313D8B547007FDB8B /* DrawingAppWithButtonsAndMusicTests.h */; };
+		A696DD3613D8B547007FDB8B /* DrawingAppWithButtonsAndMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A696DD3513D8B547007FDB8B /* DrawingAppWithButtonsAndMusicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A696DD2A13D8B546007FDB8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A696DCFF13D8B546007FDB8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A696DD0713D8B546007FDB8B;
+			remoteInfo = DrawingAppWithButtonsAndMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A696DD0813D8B546007FDB8B /* DrawingAppWithButtonsAndMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingAppWithButtonsAndMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A696DD0C13D8B546007FDB8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A696DD0E13D8B546007FDB8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A696DD1013D8B546007FDB8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A696DD1413D8B546007FDB8B /* DrawingAppWithButtonsAndMusic-Info.plist */ = {isa = PBXFileReference; path = "DrawingAppWithButtonsAndMusic-Info.plist"; sourceTree = "<group>"; };
+		A696DD1613D8B546007FDB8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A696DD1813D8B546007FDB8B /* DrawingAppWithButtonsAndMusic-Prefix.pch */ = {isa = PBXFileReference; path = "DrawingAppWithButtonsAndMusic-Prefix.pch"; sourceTree = "<group>"; };
+		A696DD1913D8B546007FDB8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A696DD1B13D8B546007FDB8B /* DrawingAppWithButtonsAndMusicAppDelegate.h */ = {isa = PBXFileReference; path = DrawingAppWithButtonsAndMusicAppDelegate.h; sourceTree = "<group>"; };
+		A696DD1C13D8B546007FDB8B /* DrawingAppWithButtonsAndMusicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingAppWithButtonsAndMusicAppDelegate.m; sourceTree = "<group>"; };
+		A696DD1F13D8B546007FDB8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A696DD2613D8B546007FDB8B /* DrawingAppWithButtonsAndMusicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingAppWithButtonsAndMusicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A696DD2E13D8B546007FDB8B /* DrawingAppWithButtonsAndMusicTests-Info.plist */ = {isa = PBXFileReference; path = "DrawingAppWithButtonsAndMusicTests-Info.plist"; sourceTree = "<group>"; };
+		A696DD3013D8B546007FDB8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A696DD3213D8B547007FDB8B /* DrawingAppWithButtonsAndMusicTests-Prefix.pch */ = {isa = PBXFileReference; path = "DrawingAppWithButtonsAndMusicTests-Prefix.pch"; sourceTree = "<group>"; };
+		A696DD3313D8B547007FDB8B /* DrawingAppWithButtonsAndMusicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingAppWithButtonsAndMusicTests.h; sourceTree = "<group>"; };
+		A696DD3513D8B547007FDB8B /* DrawingAppWithButtonsAndMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingAppWithButtonsAndMusicTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A696DD0513D8B546007FDB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696DD0D13D8B546007FDB8B /* UIKit.framework in Frameworks */,
+				A696DD0F13D8B546007FDB8B /* Foundation.framework in Frameworks */,
+				A696DD1113D8B546007FDB8B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A696DD2213D8B546007FDB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696DD2713D8B546007FDB8B /* UIKit.framework in Frameworks */,
+				A696DD2813D8B546007FDB8B /* Foundation.framework in Frameworks */,
+				A696DD2913D8B546007FDB8B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A696DCFD13D8B546007FDB8B = {
+			isa = PBXGroup;
+			children = (
+				A696DD1213D8B546007FDB8B /* DrawingAppWithButtonsAndMusic */,
+				A696DD2C13D8B546007FDB8B /* DrawingAppWithButtonsAndMusicTests */,
+				A696DD0B13D8B546007FDB8B /* Frameworks */,
+				A696DD0913D8B546007FDB8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A696DD0913D8B546007FDB8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A696DD0813D8B546007FDB8B /* DrawingAppWithButtonsAndMusic.app */,
+				A696DD2613D8B546007FDB8B /* DrawingAppWithButtonsAndMusicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A696DD0B13D8B546007FDB8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A696DD0C13D8B546007FDB8B /* UIKit.framework */,
+				A696DD0E13D8B546007FDB8B /* Foundation.framework */,
+				A696DD1013D8B546007FDB8B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A696DD1213D8B546007FDB8B /* DrawingAppWithButtonsAndMusic */ = {
+			isa = PBXGroup;
+			children = (
+				A696DD1B13D8B546007FDB8B /* DrawingAppWithButtonsAndMusicAppDelegate.h */,
+				A696DD1C13D8B546007FDB8B /* DrawingAppWithButtonsAndMusicAppDelegate.m */,
+				A696DD1E13D8B546007FDB8B /* MainWindow.xib */,
+				A696DD1313D8B546007FDB8B /* Supporting Files */,
+			);
+			path = DrawingAppWithButtonsAndMusic;
+			sourceTree = "<group>";
+		};
+		A696DD1313D8B546007FDB8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A696DD1413D8B546007FDB8B /* DrawingAppWithButtonsAndMusic-Info.plist */,
+				A696DD1513D8B546007FDB8B /* InfoPlist.strings */,
+				A696DD1813D8B546007FDB8B /* DrawingAppWithButtonsAndMusic-Prefix.pch */,
+				A696DD1913D8B546007FDB8B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A696DD2C13D8B546007FDB8B /* DrawingAppWithButtonsAndMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				A696DD3313D8B547007FDB8B /* DrawingAppWithButtonsAndMusicTests.h */,
+				A696DD3513D8B547007FDB8B /* DrawingAppWithButtonsAndMusicTests.m */,
+				A696DD2D13D8B546007FDB8B /* Supporting Files */,
+			);
+			path = DrawingAppWithButtonsAndMusicTests;
+			sourceTree = "<group>";
+		};
+		A696DD2D13D8B546007FDB8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A696DD2E13D8B546007FDB8B /* DrawingAppWithButtonsAndMusicTests-Info.plist */,
+				A696DD2F13D8B546007FDB8B /* InfoPlist.strings */,
+				A696DD3213D8B547007FDB8B /* DrawingAppWithButtonsAndMusicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A696DD0713D8B546007FDB8B /* DrawingAppWithButtonsAndMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A696DD3913D8B547007FDB8B /* Build configuration list for PBXNativeTarget "DrawingAppWithButtonsAndMusic" */;
+			buildPhases = (
+				A696DD0413D8B546007FDB8B /* Sources */,
+				A696DD0513D8B546007FDB8B /* Frameworks */,
+				A696DD0613D8B546007FDB8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingAppWithButtonsAndMusic;
+			productName = DrawingAppWithButtonsAndMusic;
+			productReference = A696DD0813D8B546007FDB8B /* DrawingAppWithButtonsAndMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A696DD2513D8B546007FDB8B /* DrawingAppWithButtonsAndMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A696DD3C13D8B547007FDB8B /* Build configuration list for PBXNativeTarget "DrawingAppWithButtonsAndMusicTests" */;
+			buildPhases = (
+				A696DD2113D8B546007FDB8B /* Sources */,
+				A696DD2213D8B546007FDB8B /* Frameworks */,
+				A696DD2313D8B546007FDB8B /* Resources */,
+				A696DD2413D8B546007FDB8B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A696DD2B13D8B546007FDB8B /* PBXTargetDependency */,
+			);
+			name = DrawingAppWithButtonsAndMusicTests;
+			productName = DrawingAppWithButtonsAndMusicTests;
+			productReference = A696DD2613D8B546007FDB8B /* DrawingAppWithButtonsAndMusicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A696DCFF13D8B546007FDB8B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A696DD0213D8B546007FDB8B /* Build configuration list for PBXProject "DrawingAppWithButtonsAndMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A696DCFD13D8B546007FDB8B;
+			productRefGroup = A696DD0913D8B546007FDB8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A696DD0713D8B546007FDB8B /* DrawingAppWithButtonsAndMusic */,
+				A696DD2513D8B546007FDB8B /* DrawingAppWithButtonsAndMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A696DD0613D8B546007FDB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696DD1713D8B546007FDB8B /* InfoPlist.strings in Resources */,
+				A696DD2013D8B546007FDB8B /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A696DD2313D8B546007FDB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696DD3113D8B546007FDB8B /* InfoPlist.strings in Resources */,
+				A696DD3413D8B547007FDB8B /* DrawingAppWithButtonsAndMusicTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A696DD2413D8B546007FDB8B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A696DD0413D8B546007FDB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696DD1A13D8B546007FDB8B /* main.m in Sources */,
+				A696DD1D13D8B546007FDB8B /* DrawingAppWithButtonsAndMusicAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A696DD2113D8B546007FDB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696DD3613D8B547007FDB8B /* DrawingAppWithButtonsAndMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A696DD2B13D8B546007FDB8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A696DD0713D8B546007FDB8B /* DrawingAppWithButtonsAndMusic */;
+			targetProxy = A696DD2A13D8B546007FDB8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A696DD1513D8B546007FDB8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A696DD1613D8B546007FDB8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A696DD1E13D8B546007FDB8B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A696DD1F13D8B546007FDB8B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A696DD2F13D8B546007FDB8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A696DD3013D8B546007FDB8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A696DD3713D8B547007FDB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A696DD3813D8B547007FDB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A696DD3A13D8B547007FDB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingAppWithButtonsAndMusic/DrawingAppWithButtonsAndMusic-Prefix.pch";
+				INFOPLIST_FILE = "DrawingAppWithButtonsAndMusic/DrawingAppWithButtonsAndMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A696DD3B13D8B547007FDB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingAppWithButtonsAndMusic/DrawingAppWithButtonsAndMusic-Prefix.pch";
+				INFOPLIST_FILE = "DrawingAppWithButtonsAndMusic/DrawingAppWithButtonsAndMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A696DD3D13D8B547007FDB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrawingAppWithButtonsAndMusic.app/DrawingAppWithButtonsAndMusic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingAppWithButtonsAndMusicTests/DrawingAppWithButtonsAndMusicTests-Prefix.pch";
+				INFOPLIST_FILE = "DrawingAppWithButtonsAndMusicTests/DrawingAppWithButtonsAndMusicTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A696DD3E13D8B547007FDB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrawingAppWithButtonsAndMusic.app/DrawingAppWithButtonsAndMusic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingAppWithButtonsAndMusicTests/DrawingAppWithButtonsAndMusicTests-Prefix.pch";
+				INFOPLIST_FILE = "DrawingAppWithButtonsAndMusicTests/DrawingAppWithButtonsAndMusicTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A696DD0213D8B546007FDB8B /* Build configuration list for PBXProject "DrawingAppWithButtonsAndMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A696DD3713D8B547007FDB8B /* Debug */,
+				A696DD3813D8B547007FDB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A696DD3913D8B547007FDB8B /* Build configuration list for PBXNativeTarget "DrawingAppWithButtonsAndMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A696DD3A13D8B547007FDB8B /* Debug */,
+				A696DD3B13D8B547007FDB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A696DD3C13D8B547007FDB8B /* Build configuration list for PBXNativeTarget "DrawingAppWithButtonsAndMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A696DD3D13D8B547007FDB8B /* Debug */,
+				A696DD3E13D8B547007FDB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A696DCFF13D8B546007FDB8B /* Project object */;
+}
